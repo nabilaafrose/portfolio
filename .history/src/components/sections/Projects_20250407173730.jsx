@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { AnimatePresence } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import "swiper/css";
@@ -20,8 +20,8 @@ export const Projects = () => {
         "Audience Targeting & Engagement",
       ],
       media: [
-        { type: "image", src: "/portfolio/images/check4.png" },
-        { type: "image", src: "/portfolio/images/check2.png" },
+        { type: "image", src: "/images/check4.png" },
+        { type: "image", src: "/images/check2.png" },
       ],
     },
     {
@@ -34,8 +34,8 @@ export const Projects = () => {
         "Technical SEO & Site Audits",
       ],
       media: [
-        { type: "image", src: "/portfolio/images/working.png" },
-        { type: "image", src: "/portfolio/images/working.png" },
+        { type: "image", src: "/images/working.png" },
+        { type: "image", src: "/images/working.png" },
       ],
     },
     {
@@ -49,8 +49,8 @@ export const Projects = () => {
         "Audience Segmentation & Personalization",
       ],
       media: [
-        { type: "image", src: "/portfolio/images/working.png" },
-        { type: "image", src: "/portfolio/images/working.png" },
+        { type: "image", src: "/images/working.png" },
+        { type: "image", src: "/images/working.png" },
       ],
     },
     {
@@ -64,8 +64,8 @@ export const Projects = () => {
         "Audience Segmentation & Personalization",
       ],
       media: [
-        { type: "image", src: "/portfolio/images/working.png" },
-        { type: "image", src: "/portfolio/images/working.png" },
+        { type: "image", src: "/images/working.png" },
+        { type: "image", src: "/images/working.png" },
       ],
     },
     {
@@ -78,7 +78,7 @@ export const Projects = () => {
         "UI Design & Interaction Design",
         "Figma, Adobe XD, and Design System",
       ],
-      media: [{ type: "video", src: "/portfolio/videos/video1.mp4" },{ type: "video", src: "/portfolio/videos/video2.mp4" }],
+      media: [{ type: "video", src: "/videos/video1.mp4" },{ type: "video", src: "/videos/video2.mp4" }],
     },
     {
       title: "Building Portfolio Websites",
@@ -90,7 +90,7 @@ export const Projects = () => {
         " Responsive & Mobile-First Design",
         "SEO & Performance Optimization",
       ],
-      media: [{ type: "image", src: "/portfolio/images/portfolioss.png" }],
+      media: [{ type: "image", src: "/images/portfolioss.png" }],
     },
   ];
 

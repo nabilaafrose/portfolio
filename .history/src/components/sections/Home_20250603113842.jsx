@@ -31,7 +31,7 @@ export const Home = () => {
                 {/* image */}
                 <div className="md:w-1/2 flex justify-center mt-10 md:mt-0">
                     <img 
-                        src="/portfolio/images/mee.png"
+                        src="/images/mee.png"
                         alt="Nabila Afrose Choity"
                         className="w-64 md:w-80 rounded-xl shadow-lg object-cover"
                     />
